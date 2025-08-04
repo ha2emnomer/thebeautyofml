@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The beauty of Machine Learning</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on The beauty of Machine Learning</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Where is Machine Learning Research Heading to ?</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;It is completely undeniable and also completely naive to deny that LLMs and foundational models have changed the course of the Deep learning research. I think one can draw a line where you have papers before the first GPT model was out  and papers after. You will see a clear difference.&lt;/p&gt;&#xA;&lt;p&gt;A field that also dramatically changed because of the surge of LLMs&#xA;is NLP.&#xA;One can easily claim that more than a half of research in NLP is&#xA;now about prompting LLM for a task that before required extensive&#xA;architecture designing and large datasets.&#xA;The rest of NLP research would largely revolve around the&#xA;properties of LLMs or (engineering) new better and faster LLMs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

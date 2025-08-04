@@ -1,0 +1,220 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Where is Machine Learning Research Heading to ? - The beauty of Machine Learning</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="It is completely undeniable and also completely naive to deny that LLMs and foundational models have changed the course of the Deep learning research. I think one can draw a line where you have papers before the first GPT model was out  and papers after. You will see a clear difference.
+A field that also dramatically changed because of the surge of LLMs
+is NLP.
+One can easily claim that more than a half of research in NLP is
+now about prompting LLM for a task that before required extensive
+architecture designing and large datasets.
+The rest of NLP research would largely revolve around the
+properties of LLMs or (engineering) new better and faster LLMs." />
+  <meta name="author" content="The beauty of Machine Learning" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  
+
+  
+
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.148.2">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >The beauty of Machine Learning</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  >
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Where is Machine Learning Research Heading to ?</h1><div class="text-xs antialiased opacity-60"><time>Jan 14, 2024</time></div></header>
+
+  <section><p>It is completely undeniable and also completely naive to deny that LLMs and foundational models have changed the course of the Deep learning research. I think one can draw a line where you have papers before the first GPT model was out  and papers after. You will see a clear difference.</p>
+<p>A field that also dramatically changed because of the surge of LLMs
+is NLP.
+One can easily claim that more than a half of research in NLP is
+now about prompting LLM for a task that before required extensive
+architecture designing and large datasets.
+The rest of NLP research would largely revolve around the
+properties of LLMs or (engineering) new better and faster LLMs.</p>
+<p>AI agents and tools disturbance that you see today is not
+the first disturbance to the ML field.
+I started learning deep learning at the
+end of 2014, it was merely an accident and curiosity that
+drove my consistent persistence in learning about neural networks.</p>
+<p>At that time it was not yet a sexy field
+that everyone wanted to learn maybe at least for
+Computer Science 4th year students
+that are all into web and mobile development.
+There was a large rise in the need for software engineers
+at that time and data science was not yet something.</p>
+<p>After a couple of years,
+Deep Learning became the defacto
+standard for doing research in Computer vision,
+for example. Before it was all about the combination of filters,
+feature extraction and Support Vector Machines which
+were mostly coded in MatLab. Later on it became all about Convolution Neural Networks.</p>
+<p>Deep Learning has done the
+disturbance in the research and publishing in fields as Computer Vision way before LLMs had done to the whole ML field.</p>
+<p>However, at that time I remember that I always got this sarcastic comment “DL is just statistics in disguise”. My naive answer would be that it just works. I have never actually doubt that it works. The idea of pouring large scale and consistently curated dataset of any domain into a neural network with millions of parameters and training for hundreds of hours on GPUs seems to be an inevitable success. It is because of the Universal approximation theorem.</p>
+<p>I never have doubts until I had to do my master thesis project which was a bit different course than the popular research or models at that time. I worked on solving combinatorial optimization problems with neural networks.</p>
+<p>At the end when I achieved my goal, I realized that I did two things that were really curicural to the success of the models that I have built. First is the inductive bias that I have introduced and the second is scale. The inductive bias I have introduced was a simple attention mechanism based on cosine similarity, so I would assume that in general it would work for other problems too.</p>
+<p>The important lesson I learned is that when you deal with a new problem, it is really important to understand the domain of the problem and don’t just throw data to a neural network. Nevertheless, scale is the key.</p>
+<p>It does not mean necessarily that scale is
+the only thing (as most researchers now do believe).
+The fight between algorithmic approaches advocates and scale
+advocates will remain continuous for a long time,
+same as the fight between symbolic approaches and connectionism
+approaches advocates remains today.
+The latter fight is what drove AI to its glorious place today with the revive of AI agents.
+The scale and algorithms fight will continue driving AI
+into a new era of advancements, and probably none of them will win.</p>
+<p>The history of AI have been non-linear, in sense that advancements
+happened usually in parallel. It started with symbolic reasoning and search algorithms.
+At the same time, the perceptons that learn to recognize patterns emerged.
+Later on Expert systems became widely commercialized in banks and hospitals, also at the same time the connectionist approaches rose again.</p>
+<p>At every point of time, it was hard to predict what could be the next big thing and is the next flop.
+As an example, for the authors of the &ldquo;Attention all you need&rdquo; paper,
+it was the frustration with the recurrent based NLP models (they were slow and unscalable to large scale data)
+that drove them to replace them with feed-forward models that see everything with attention, an idea that was fundamentally different from mainstream adaption of &ldquo;recurrent models for everything&rdquo;.
+In the beginning, the transformers were also widely received as just better &ldquo;engineering&rdquo;
+for solving NLP tasks. No one could simply anticipate that transformers would be as popular as it today.</p>
+<p>Scientists don&rsquo;t usually think this way (inventing things that has mainstream adaptation), rather they tend to ask questions and answer them.
+If you would like to start a research career in AI today, which topic do you put your bet on ?
+It was always two things: Better and Novel. Better can be better LLMs, better Reinforcement learning for instruction fine-tuning, faster LLMs and so on.
+The second aspect is novelty, and it is extremely hard to predict what is the next big thing or at least what is worth your time and effort to investigate in.
+Take a look back at the example of the &ldquo;Attention all you need paper&rdquo;.</p>
+<p>We can try to bet on many topics. Instead, we can think about the fundamental defects in the current state of the art.
+Simply questioning why things work the way they work would lead to new discoveries.
+We can also try to combine ideas into one and build a new thing.
+I here would use a different concept to anticipate the future of AI research.
+Let&rsquo;s think about</p>
+</section>
+
+  </article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <div class="mr-auto">&copy;2025
+    <a class="link" href="http://localhost:1313/">The beauty of Machine Learning</a></div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+</body>
+</html>
