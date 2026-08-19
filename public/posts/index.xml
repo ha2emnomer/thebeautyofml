@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on The beauty of Machine Learning</title>
-    <link>https://example.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on The beauty of Machine Learning</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0200</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to work on niche problems/areas/fields in AI/ML?</title>
-      <link>https://example.org/posts/how-to-work-on-niche-problems/</link>
+      <link>http://localhost:1313/posts/how-to-work-on-niche-problems/</link>
       <pubDate>Wed, 19 Aug 2026 10:00:00 +0200</pubDate>
-      <guid>https://example.org/posts/how-to-work-on-niche-problems/</guid>
+      <guid>http://localhost:1313/posts/how-to-work-on-niche-problems/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;One would think probably that a paper on LLMs is more mainstream than a paper that applies deep learning to identify animal sounds or detect malfunction in manufacturing machines. Usually, applications of AI in any field -which does not directly deal with computer algorithms- are considered niche, in the sense that usually these types of publications don&amp;rsquo;t fundamentally contribute something to AI itself and usually go to conferences or journals that are not for AI/ML.&lt;/p&gt;</description>
     </item>
   </channel>
