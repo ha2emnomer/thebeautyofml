@@ -2,25 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The beauty of Machine Learning</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on The beauty of Machine Learning</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Aug 2025 07:07:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Aug 2026 10:00:00 +0200</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Where is Machine Learning Research Heading to ?</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 04 Aug 2025 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;It is completely naive to deny that LLMs and foundational models&#xA;have changed the course of the Deep learning research forever.&#xA;I think one can draw a line which divides the research papers and novel contributions&#xA;before the first LLM and after it.&#xA;You will see a clear difference.&lt;/p&gt;&#xA;&lt;p&gt;A field that also dramatically changed because of the surge of LLMs&#xA;is NLP.&#xA;One can easily claim that more than a half of research in NLP is&#xA;now about prompting LLM for a task that before required extensive&#xA;architecture designing and large datasets.&#xA;The rest of NLP research would largely revolve around the&#xA;properties of LLMs or (engineering) new, better and faster LLMs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>You do not get the potenial of AI correctly</title>
-      <link>http://localhost:1313/posts/you-dont-get-ai-correct/</link>
-      <pubDate>Mon, 04 Aug 2025 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/posts/you-dont-get-ai-correct/</guid>
-      <description>&lt;p&gt;Now AI is a great thing because AI will solve all the problems we have today,&#xA;it will solve employment, it will solve disease, it will solve poverty, but it will also create new problems.&lt;/p&gt;&#xA;&lt;p&gt;These are the word of &amp;ldquo;Ilya Sutskever&amp;rdquo; the AI scientist and co-founder of OpenAI.&lt;/p&gt;&#xA;&lt;p&gt;The same &amp;ldquo;words&amp;rdquo; were also repeated by Greg Brockman and Sam Altman when both were interviewed by&#xA;Karen Hao, the journalist and author of book &amp;ldquo;The Empire of AI&amp;rdquo;.&lt;/p&gt;</description>
+      <title>How to work on niche problems/areas/fields in AI/ML?</title>
+      <link>https://example.org/posts/how-to-work-on-niche-problems/</link>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 +0200</pubDate>
+      <guid>https://example.org/posts/how-to-work-on-niche-problems/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;One would think probably that a paper on LLMs is more mainstream than a paper that applies deep learning to identify animal sounds or detect malfunction in manufacturing machines. Usually, applications of AI in any field -which does not directly deal with computer algorithms- are considered niche, in the sense that usually these types of publications don&amp;rsquo;t fundamentally contribute something to AI itself and usually go to conferences or journals that are not for AI/ML.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
