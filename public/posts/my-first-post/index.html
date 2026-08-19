@@ -25,14 +25,18 @@
   
   <meta name="theme-color" />
 
-  <meta name="description" content="It is completely undeniable and also completely naive to deny that LLMs and foundational models have changed the course of the Deep learning research. I think one can draw a line where you have papers before the first GPT model was out  and papers after. You will see a clear difference.
+  <meta name="description" content="It is completely naive to deny that LLMs and foundational models
+have changed the course of the Deep learning research forever.
+I think one can draw a line which divides the research papers and novel contributions
+before the first LLM and after it.
+You will see a clear difference.
 A field that also dramatically changed because of the surge of LLMs
 is NLP.
 One can easily claim that more than a half of research in NLP is
 now about prompting LLM for a task that before required extensive
 architecture designing and large datasets.
 The rest of NLP research would largely revolve around the
-properties of LLMs or (engineering) new better and faster LLMs." />
+properties of LLMs or (engineering) new, better and faster LLMs." />
   <meta name="author" content="The beauty of Machine Learning" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -136,39 +140,62 @@ properties of LLMs or (engineering) new better and faster LLMs." />
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">Where is Machine Learning Research Heading to ?</h1><div class="text-xs antialiased opacity-60"><time>Jan 14, 2024</time></div></header>
+    <h1 class="my-0! pb-2.5">Where is Machine Learning Research Heading to ?</h1><div class="text-xs antialiased opacity-60"><time>Aug 4, 2025</time></div></header>
 
-  <section><p>It is completely undeniable and also completely naive to deny that LLMs and foundational models have changed the course of the Deep learning research. I think one can draw a line where you have papers before the first GPT model was out  and papers after. You will see a clear difference.</p>
+  <section><p>It is completely naive to deny that LLMs and foundational models
+have changed the course of the Deep learning research forever.
+I think one can draw a line which divides the research papers and novel contributions
+before the first LLM and after it.
+You will see a clear difference.</p>
 <p>A field that also dramatically changed because of the surge of LLMs
 is NLP.
 One can easily claim that more than a half of research in NLP is
 now about prompting LLM for a task that before required extensive
 architecture designing and large datasets.
 The rest of NLP research would largely revolve around the
-properties of LLMs or (engineering) new better and faster LLMs.</p>
+properties of LLMs or (engineering) new, better and faster LLMs.</p>
 <p>AI agents and tools disturbance that you see today is not
 the first disturbance to the ML field.
-I started learning deep learning at the
+The first time I read about deep learning was by the
 end of 2014, it was merely an accident and curiosity that
-drove my consistent persistence in learning about neural networks.</p>
+drove my consistent persistence to learn about neural networks.</p>
 <p>At that time it was not yet a sexy field
-that everyone wanted to learn maybe at least for
-Computer Science 4th year students
-that are all into web and mobile development.
+that everyone wanted to consider for future career prospectives at least for
+CS 4th year students who were all into web and mobile development.
 There was a large rise in the need for software engineers
 at that time and data science was not yet something.</p>
-<p>After a couple of years,
-Deep Learning became the defacto
-standard for doing research in Computer vision,
-for example. Before it was all about the combination of filters,
+<p>After a couple of years, a noticeable trend was that
+Deep Learning became the de-facto
+standard for doing research in computer vision. Before it was all about the combination of filters,
 feature extraction and Support Vector Machines which
-were mostly coded in MatLab. Later on it became all about Convolution Neural Networks.</p>
+were mostly coded in MatLab. Later on it became all about
+Convolution Neural Networks. Same also applies for NLP, where tasks as machine translation, sentiment analysis,
+text summarization, and recommendation was solved primarily by recurrent neural networks and LSTMs.</p>
 <p>Deep Learning has done the
-disturbance in the research and publishing in fields as Computer Vision way before LLMs had done to the whole ML field.</p>
-<p>However, at that time I remember that I always got this sarcastic comment “DL is just statistics in disguise”. My naive answer would be that it just works. I have never actually doubt that it works. The idea of pouring large scale and consistently curated dataset of any domain into a neural network with millions of parameters and training for hundreds of hours on GPUs seems to be an inevitable success. It is because of the Universal approximation theorem.</p>
-<p>I never have doubts until I had to do my master thesis project which was a bit different course than the popular research or models at that time. I worked on solving combinatorial optimization problems with neural networks.</p>
-<p>At the end when I achieved my goal, I realized that I did two things that were really curicural to the success of the models that I have built. First is the inductive bias that I have introduced and the second is scale. The inductive bias I have introduced was a simple attention mechanism based on cosine similarity, so I would assume that in general it would work for other problems too.</p>
-<p>The important lesson I learned is that when you deal with a new problem, it is really important to understand the domain of the problem and don’t just throw data to a neural network. Nevertheless, scale is the key.</p>
+disturbance in the research and publishing in fields as
+Computer Vision way before LLMs had done to the whole ML field, and other engineering fields were AI now became
+the secret keyword to get access to grants.</p>
+<p>At that time one would always get that sarcastic comments as: “DL is just statistics in disguise”.
+My naive answer would be that it just works.
+The idea of pouring large scale and consistently curated datasets
+from any domain into a neural networks with millions/billions of
+parameters and training for hundreds of hours on GPUs seems to
+be an inevitable success.
+It is theoretically sound because of the Universal approximation theorem, and ML researchers proved that it really works practically.</p>
+<p>I never have doubts until I had to
+do my master thesis project which was a bit of different course than the popular
+research or models at that time.
+I worked on solving combinatorial optimization
+problems with neural networks. At the end when I achieved my goal,
+I realized that I did two things that were really important to the
+success of the models that I have built.
+First is the inductive bias that I have introduced and
+the second is scale.
+The inductive bias I have introduced
+was a simple attention mechanism based on cosine similarity [^1],
+so I would assume that in general it could be transferable to other problems too.</p>
+<p>The important lesson I learned is that when you
+deal with a new problem, it is really important to understand the domain of the problem and don’t just throw data to a neural network. Nevertheless, scale is the key.</p>
 <p>It does not mean necessarily that scale is
 the only thing (as most researchers now do believe).
 The fight between algorithmic approaches advocates and scale
@@ -198,12 +225,19 @@ Simply questioning why things work the way they work would lead to new discoveri
 We can also try to combine ideas into one and build a new thing.
 I here would use a different concept to anticipate the future of AI research.
 Let&rsquo;s think about</p>
+<h1 id="references">References</h1>
 </section>
 
-  </article></main><footer
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/posts/you-dont-get-ai-correct/"
+      ><span>You do not get the potenial of AI correctly</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
-  <div class="mr-auto">&copy;2025
+  <div class="mr-auto">&copy;2026
     <a class="link" href="http://localhost:1313/">The beauty of Machine Learning</a></div>
   <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
     >powered by hugo️️</a

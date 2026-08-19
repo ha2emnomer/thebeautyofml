@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'The beauty of Machine Learning'
-theme = "paper"
+theme = ["paper","hugo-simplecite"]
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

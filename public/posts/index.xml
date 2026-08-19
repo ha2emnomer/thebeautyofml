@@ -6,14 +6,21 @@
     <description>Recent content in Posts on The beauty of Machine Learning</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where is Machine Learning Research Heading to ?</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <pubDate>Mon, 04 Aug 2025 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;It is completely undeniable and also completely naive to deny that LLMs and foundational models have changed the course of the Deep learning research. I think one can draw a line where you have papers before the first GPT model was out  and papers after. You will see a clear difference.&lt;/p&gt;&#xA;&lt;p&gt;A field that also dramatically changed because of the surge of LLMs&#xA;is NLP.&#xA;One can easily claim that more than a half of research in NLP is&#xA;now about prompting LLM for a task that before required extensive&#xA;architecture designing and large datasets.&#xA;The rest of NLP research would largely revolve around the&#xA;properties of LLMs or (engineering) new better and faster LLMs.&lt;/p&gt;</description>
+      <description>&lt;p&gt;It is completely naive to deny that LLMs and foundational models&#xA;have changed the course of the Deep learning research forever.&#xA;I think one can draw a line which divides the research papers and novel contributions&#xA;before the first LLM and after it.&#xA;You will see a clear difference.&lt;/p&gt;&#xA;&lt;p&gt;A field that also dramatically changed because of the surge of LLMs&#xA;is NLP.&#xA;One can easily claim that more than a half of research in NLP is&#xA;now about prompting LLM for a task that before required extensive&#xA;architecture designing and large datasets.&#xA;The rest of NLP research would largely revolve around the&#xA;properties of LLMs or (engineering) new, better and faster LLMs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>You do not get the potenial of AI correctly</title>
+      <link>http://localhost:1313/posts/you-dont-get-ai-correct/</link>
+      <pubDate>Mon, 04 Aug 2025 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/you-dont-get-ai-correct/</guid>
+      <description>&lt;p&gt;Now AI is a great thing because AI will solve all the problems we have today,&#xA;it will solve employment, it will solve disease, it will solve poverty, but it will also create new problems.&lt;/p&gt;&#xA;&lt;p&gt;These are the word of &amp;ldquo;Ilya Sutskever&amp;rdquo; the AI scientist and co-founder of OpenAI.&lt;/p&gt;&#xA;&lt;p&gt;The same &amp;ldquo;words&amp;rdquo; were also repeated by Greg Brockman and Sam Altman when both were interviewed by&#xA;Karen Hao, the journalist and author of book &amp;ldquo;The Empire of AI&amp;rdquo;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
